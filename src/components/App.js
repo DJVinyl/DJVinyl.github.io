@@ -7,6 +7,7 @@ import Image from "react-bootstrap/Image";
 import github from "../images/github.png";
 import linkedIn from "../images/linkedin.png";
 import email from "../images/email.png";
+import cv from "../images/CV.png";
 import selfPic from "../images/selfPic.jpeg";
 
 export default function App() {
@@ -18,12 +19,14 @@ export default function App() {
         <p>Geomatics Engineer Grad & Software Developer</p>
       </header>
       <div className="RouterBar">
+        <Icon website={"https://resume.creddle.io/resume/dmnvgpk3lf3"} image={cv} />
         <Icon website={"https://github.com/DJVinyl"} image={github} />
         <Icon
           website={"https://www.linkedin.com/in/mitchellgonzalez1993/"}
           image={linkedIn}
         />
         <Icon website={"mailto:mitchell.gonzalez@gmail.com"} image={email} />
+
       </div>
     </div>
   );
