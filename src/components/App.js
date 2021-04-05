@@ -1,17 +1,25 @@
+import React from 'react';
 import '../styles/App.scss';
+import Icon from './Icon'
 
-function App() {
+
+import github from '../images/github.png'
+import linkedIn from '../images/linkedin.png'
+import email from '../images/email.png'
+
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1>Mitchell Gonzalez</h1>
         <p>Software Developer</p>
       </header>
-      {/* <a href="https://github.com/Joeyryanbridges">
-      <Image src="giticon.png" className="githubIcon" />
-      </a> */}
+      <div className="RouterBar">
+        <Icon website={"https://github.com/DJVinyl"} image={github}/>
+        <Icon website={"https://www.linkedin.com/in/mitchellgonzalez1993/"} image={linkedIn}/>
+        <Icon website={"mailto:mitchell.gonzalez@gmail.com"} image={email} />
+      </div>
     </div>
   );
 }
 
-export default App;
