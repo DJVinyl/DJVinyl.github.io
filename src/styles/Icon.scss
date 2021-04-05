@@ -1,9 +1,11 @@
 .RouterBar {
+  padding-top:2vh;
+  padding-bottom:2vh;
   background-color: #586673;
+  background-image: url("https://www.transparenttextures.com/patterns/pinstriped-suit.png");
 }
 
 .dyn-img {
-  margin-top: 5vh;
   padding-right: 5vw;
   padding-left: 5vw;
   filter: invert(100%);
