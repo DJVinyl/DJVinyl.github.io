@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/DJVinyl.github.io/static/css/main.0e1cbefc.chunk.css",
-    "main.js": "/DJVinyl.github.io/static/js/main.87a014dc.chunk.js",
-    "main.js.map": "/DJVinyl.github.io/static/js/main.87a014dc.chunk.js.map",
-    "runtime-main.js": "/DJVinyl.github.io/static/js/runtime-main.60096eb3.js",
-    "runtime-main.js.map": "/DJVinyl.github.io/static/js/runtime-main.60096eb3.js.map",
-    "static/js/2.0eaa1774.chunk.js": "/DJVinyl.github.io/static/js/2.0eaa1774.chunk.js",
-    "static/js/2.0eaa1774.chunk.js.map": "/DJVinyl.github.io/static/js/2.0eaa1774.chunk.js.map",
-    "index.html": "/DJVinyl.github.io/index.html",
-    "static/css/main.0e1cbefc.chunk.css.map": "/DJVinyl.github.io/static/css/main.0e1cbefc.chunk.css.map",
-    "static/js/2.0eaa1774.chunk.js.LICENSE.txt": "/DJVinyl.github.io/static/js/2.0eaa1774.chunk.js.LICENSE.txt",
-    "static/media/selfPic.de5f81a5.jpeg": "/DJVinyl.github.io/static/media/selfPic.de5f81a5.jpeg"
+    "main.css": "/static/css/main.0e1cbefc.chunk.css",
+    "main.js": "/static/js/main.87a014dc.chunk.js",
+    "main.js.map": "/static/js/main.87a014dc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.29cbda57.js",
+    "runtime-main.js.map": "/static/js/runtime-main.29cbda57.js.map",
+    "static/js/2.0eaa1774.chunk.js": "/static/js/2.0eaa1774.chunk.js",
+    "static/js/2.0eaa1774.chunk.js.map": "/static/js/2.0eaa1774.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0e1cbefc.chunk.css.map": "/static/css/main.0e1cbefc.chunk.css.map",
+    "static/js/2.0eaa1774.chunk.js.LICENSE.txt": "/static/js/2.0eaa1774.chunk.js.LICENSE.txt",
+    "static/media/selfPic.de5f81a5.jpeg": "/static/media/selfPic.de5f81a5.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.60096eb3.js",
+    "static/js/runtime-main.29cbda57.js",
     "static/js/2.0eaa1774.chunk.js",
     "static/css/main.0e1cbefc.chunk.css",
     "static/js/main.87a014dc.chunk.js"
