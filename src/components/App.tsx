@@ -1,5 +1,6 @@
 import Header from './Header'
 import About from './About'
+import Portfolio from './Portfolio'
 
 
 export default function App() {
@@ -7,6 +8,7 @@ export default function App() {
     <div className="App">
       <Header/>
       <About/>
+      <Portfolio/>
     </div>
   );
 }

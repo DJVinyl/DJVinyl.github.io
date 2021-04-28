@@ -15,7 +15,7 @@ export default function Header() {
       </span>
       <span className="link-tree">
         <h1 className="name-header">Mitchell Gonzalez</h1>
-        <p className="titles">Geomatics Engineer Grad & Software Developer</p>
+        <p className="titles">Geomatics Engineer Grad & Full Stack Developer</p>
         <div className="router-bar">
           <Icon
             website={"https://resume.creddle.io/resume/dmnvgpk3lf3"}
