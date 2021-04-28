@@ -1,6 +1,5 @@
 import Image from 'react-bootstrap/Image'
 import '../styles/Icon.scss';
-
 interface Iprops {
   website:string,
   image: string
