@@ -18,7 +18,7 @@ export default function Achievement(props: IProps) {
         <span className="details">
           <p className="achievement-description">{props.description}</p>
           {props.link ? (
-            <a className="github-link" href={props.link} target="_blank">
+            <a className="github-link" href={props.link} target="_blank" rel="noopener noreferrer">
               {props.title} Repository
             </a>
           ) : (

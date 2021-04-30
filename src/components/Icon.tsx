@@ -9,7 +9,7 @@ interface Iprops {
 export default function Icon(props:Iprops) {
   return (
     <div className='icon-container'>
-    <a className="dyn-img" href={props.website} target="_blank">
+    <a className="dyn-img" href={props.website} target="_blank" rel="noopener noreferrer">
       <Image src={props.image} className={`${props.image} + Icon`} />
     </a>
     <p className='subtitle'>{props.subtitle}</p>
