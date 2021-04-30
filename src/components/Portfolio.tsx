@@ -25,16 +25,16 @@ export default function Portfolio() {
         title={"Smarter Teacher"}
         gif={smarterTeacherGif}
         description={
-          "An e-commerce marketplace website where teachers can buy and sell teaching resources. Built with as a Team with Vineet Pande and Preeti Rani."
+          "An e-commerce marketplace website where teachers can buy and sell teaching resources. This project was built by Vineet Pande, Preeti Rani, and Mitchell Gonzalez."
         }
         link={""}
-        frontEnd={"ReactJS, MaterialUI"}
+        frontEnd={"ReactJS, MaterialUI, Stripe"}
         backEnd={"ExpressJS, ElasticSearch, AWS-S3, Firebase, pSQL"}
       />
       <Achievement
         title={"Jungle"}
         gif={junglePic}
-        description={"A fun and simple e-commerce app."}
+        description={"A fun and simple e-commerce app built soley with Ruby."}
         link={"https://github.com/DJVinyl/Rails-Jungle"}
         frontEnd={"eRuby"}
         backEnd={"Ruby on Rails"}
