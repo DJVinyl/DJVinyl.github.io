@@ -20,13 +20,16 @@ export default function Header() {
           <Icon
             website={"https://resume.creddle.io/resume/dmnvgpk3lf3"}
             image={cv}
+            subtitle={'Resume'}
           />
-          <Icon website={"https://github.com/DJVinyl"} image={github} />
+          <Icon website={"https://github.com/DJVinyl"} image={github} subtitle={'My Github'} />
           <Icon
             website={"https://www.linkedin.com/in/mitchellgonzalez1993/"}
             image={linkedIn}
+            subtitle={'My LinkedIn'}
           />
-          <Icon website={"mailto:mitchell.gonzalez@gmail.com"} image={email} />
+          <Icon website={"mailto:mitchell.gonzalez@gmail.com"} image={email} subtitle={'Email Me'}/>
+
         </div>
       </span>
     </header>

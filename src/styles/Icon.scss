@@ -4,8 +4,19 @@
   filter: invert(100%);
 }
 
-
 .dyn-img:hover {
   opacity: 50%;
 }
 
+
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.subtitle{
+  margin-top: -2.5vh;
+  font-size:12px;
+  color: white;
+}
