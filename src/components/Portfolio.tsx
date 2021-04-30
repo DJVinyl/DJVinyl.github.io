@@ -3,8 +3,10 @@ import tweeterGif from "../images/Tweeter.gif";
 import glassmorphismTSGif from '../images/GlassmorphismTS.gif'
 import junglePic from '../images/JunglePic.png'
 import tinyAppGif from '../images/TinyAppGif.gif'
+import portfolio from '../images/Portfolio.png'
+import schedulerGif from '../images/schedulerGif.gif'
+import smarterTeacherGif from '../images/smarterTeacherGif.gif'
 import '../styles/Portfolio.scss'
-
 
 export default function Portfolio() {
   return (
@@ -13,7 +15,7 @@ export default function Portfolio() {
         title={"Glassmorphism"}
         gif={glassmorphismTSGif}
         description={
-          "A CSS code generator that generates glassmorphism CSS styling"
+          "A CSS code generator that generates glassmorphism CSS styling."
         }
         link={"https://github.com/DJVinyl/GlassmorphismTS"}
         frontEnd={"ReactJS - Typescript"}
@@ -21,9 +23,9 @@ export default function Portfolio() {
       />
       <Achievement
         title={"Smarter Teacher"}
-        gif={""}
+        gif={smarterTeacherGif}
         description={
-          "A Marketplace website where teachers can buy and sell teaching resources"
+          "An e-commerce marketplace website where teachers can buy and sell teaching resources. Built with as a Team with Vineet Pande and Preeti Rani."
         }
         link={""}
         frontEnd={"ReactJS, MaterialUI"}
@@ -32,10 +34,20 @@ export default function Portfolio() {
       <Achievement
         title={"Jungle"}
         gif={junglePic}
-        description={"A fun and simple e-commerce app"}
+        description={"A fun and simple e-commerce app."}
         link={"https://github.com/DJVinyl/Rails-Jungle"}
         frontEnd={"eRuby"}
         backEnd={"Ruby on Rails"}
+      />
+      <Achievement
+        title={"Scheduler"}
+        gif={schedulerGif}
+        description={
+          "An SPA Application built in React that assists in scheduling for a business week."
+        }
+        link={"https://github.com/DJVinyl/scheduler"}
+        frontEnd={"ReactJS, Storybook, Jest, Cypress"}
+        backEnd={"Webpack Development Server, pSQL"}
       />
       <Achievement
         title={"SmartToDo List"}
@@ -58,17 +70,21 @@ export default function Portfolio() {
         backEnd={"Express"}
       />
       <Achievement
-        title={'TinyApp'}
+        title={"TinyApp"}
         gif={tinyAppGif}
-        description={"TinyApp is a web application that allows users to shorten long URLs (à la bit.ly)."}
+        description={
+          "TinyApp is a web application that allows users to shorten long URLs (à la bit.ly)."
+        }
         link={"https://github.com/DJVinyl/tinyapp"}
         frontEnd={"EJS"}
         backEnd={"Express"}
       />
       <Achievement
-        title={'My Portfolio'}
-        gif={""}
-        description={"A website that I built using React and TypeScript to provide a Link Tree and a portfolio"}
+        title={"My Portfolio"}
+        gif={portfolio}
+        description={
+          "A website that I built using React and TypeScript to provide a Link Tree and a coding portfolio."
+        }
         link={"https://github.com/DJVinyl/DJVinyl.github.io"}
         frontEnd={"ReactJS - Typescript"}
         backEnd={"Github Pages"}

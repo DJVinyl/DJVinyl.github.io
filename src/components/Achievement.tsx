@@ -14,7 +14,7 @@ export default function Achievement(props: IProps) {
     <div className="achievement-container">
       <h2>{props.title}</h2>
       <section className="details-overview">
-        <img className="project-gif" src={props.gif} />
+        <img className="project-gif" src={props.gif} alt={props.title} />
         <span className="details">
           <p className="achievement-description">{props.description}</p>
           {props.link ? (

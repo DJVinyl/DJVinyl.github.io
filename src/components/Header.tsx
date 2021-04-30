@@ -20,7 +20,7 @@ export default function Header() {
           <Icon
             website={"https://resume.creddle.io/resume/dmnvgpk3lf3"}
             image={cv}
-            subtitle={'Resume'}
+            subtitle={'My Resume'}
           />
           <Icon website={"https://github.com/DJVinyl"} image={github} subtitle={'My Github'} />
           <Icon
