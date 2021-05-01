@@ -143,3 +143,20 @@
     display: flex;
   }
 }
+
+.github-link {
+  color: #09335a;
+  font-style: italic;
+}
+
+.github-link:hover {
+  color: #056662;
+}
+
+.github-link:active {
+  color: #591612;
+}
+
+.github-link:visited {
+  color: #041729;
+}
