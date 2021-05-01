@@ -15,7 +15,7 @@ export default function Portfolio() {
         title={"Glassmorphism"}
         gif={glassmorphismTSGif}
         description={
-          "A CSS code generator that generates glassmorphism CSS styling."
+          "A CSS code generator that creates glassmorphism CSS styling."
         }
         link={"https://github.com/DJVinyl/GlassmorphismTS"}
         frontEnd={"ReactJS - Typescript"}
