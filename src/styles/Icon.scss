@@ -21,10 +21,10 @@
     justify-content: center;
   }
 
-  .subtitle {
-    margin-top: -2.5vh;
-    margin-left: -2em;
-    font-size: 10px;
+  p.subtitle {
+    // visibility: hidden;
+    margin-top: -4vh;
+    font-size: 8px;
     color: white;
   }
 }
@@ -53,7 +53,6 @@
 
   .subtitle {
     margin-top: -2.5vh;
-    margin-left: -2.9em;
     font-size: 12px;
     color: white;
   }
@@ -78,15 +77,12 @@
 
   .icon-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
   }
 
   .subtitle {
-    margin-top: -2.5vh;
-    margin-left: -2.9em;
+    margin-top: -2.0vh;
     font-size: 12px;
     color: white;
   }
@@ -105,7 +101,7 @@
   }
 
   .icon-images {
-    width: 70%;
+    width: 100%;
     height: auto;
   }
 
@@ -116,8 +112,7 @@
   }
 
   .subtitle {
-    margin-top: -2.5vh;
-    margin-left: -2.3em;
+    margin-top: -1.5vh;
     font-size: 12px;
     color: white;
   }
