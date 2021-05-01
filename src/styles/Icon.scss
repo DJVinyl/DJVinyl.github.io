@@ -131,9 +131,10 @@
   }
 
   .icon-images {
-    width: 70%;
+    width: 100%;
     height: auto;
   }
+
 
   .icon-container {
     display: flex;
@@ -143,7 +144,6 @@
 
   .subtitle {
     margin-top: -2.5vh;
-    margin-left: -2.3em;
     font-size: 12px;
     color: white;
   }
@@ -178,3 +178,5 @@
     color: white;
   }
 }
+
+

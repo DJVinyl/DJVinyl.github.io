@@ -1,4 +1,19 @@
-.portfolio-box {
-  margin-left: 4vw;
-  margin-right: 4vw;
+@media (max-width: 1024px) and (min-width: 320px) {
+  .portfolio-box {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    // max-width: 1000px;
+    // width: 75%;
+    // margin: auto;
+  }
+}
+
+@media (min-width: 1025px) {
+  .portfolio-box {
+    // margin-left: 4vw;
+    // margin-right: 4vw;
+    max-width: 1024px;
+    width: 75%;
+    margin: auto;
+  }
 }

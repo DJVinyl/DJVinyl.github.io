@@ -3,7 +3,7 @@
   .App-header {
     background-color: #4f5b66;
     min-height: 25vh;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(8px + 2vmin);
     color: white;
     background-image: url("https://www.transparenttextures.com/patterns/pinstriped-suit.png");
     margin: 50px;
@@ -32,8 +32,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    font-size: 8px;
-    margin-top:-3em;
+    font-size: calc(12px + 2vmin);
   }
 
   .router-bar {
@@ -87,15 +86,14 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    font-size: 24px;
+    font-size: calc(12px + 2vmin);
   }
 
   .titles {
     display: flex;
     justify-content: center;
     align-content: center;
-    font-size: 14px;
-    // margin-top:-4em;
+    font-size: calc(8px + 2vmin);
   }
 
   .router-bar {
@@ -156,7 +154,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    font-size: 22px;
+    font-size: calc(8px + 2vmin);
     margin-top:-1em;
   }
 
@@ -216,7 +214,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    font-size: 24px;
+    font-size: calc(8px + 2vmin);
   }
 
   .router-bar {
@@ -240,10 +238,15 @@
   .App-header {
     background-color: #4f5b66;
     min-height: 25vh;
+    width: 75%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
     font-size: calc(10px + 2vmin);
     color: white;
     background-image: url("https://www.transparenttextures.com/patterns/pinstriped-suit.png");
-    margin: 50px;
 
     background: rgba(134, 131, 131, 0.062);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
@@ -255,6 +258,7 @@
     text-shadow: 0 2px 4px rgb(71 97 206 / 70%);
     display: flex;
     align-content: center;
+
   }
 
   .link-tree {
@@ -271,6 +275,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    font-size: calc(4px + 2vmin);
   }
 
   .router-bar {
@@ -299,7 +304,12 @@
     font-size: calc(10px + 2vmin);
     color: white;
     background-image: url("https://www.transparenttextures.com/patterns/pinstriped-suit.png");
-    margin: 50px;
+    width: 75%;
+    max-width: 1024px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 
     background: rgba(134, 131, 131, 0.062);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
@@ -327,6 +337,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    font-size: calc(4px + 2vmin);
   }
 
   .router-bar {
