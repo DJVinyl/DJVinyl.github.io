@@ -6,9 +6,6 @@
     filter: invert(100%);
   }
 
-  .dyn-img:hover {
-    opacity: 50%;
-  }
 
   .icon-images {
     width: 70%;
@@ -36,9 +33,6 @@
     filter: invert(100%);
   }
 
-  .dyn-img:hover {
-    opacity: 50%;
-  }
 
   .icon-images {
     width: 70%;
@@ -66,9 +60,6 @@
     filter: invert(100%);
   }
 
-  .dyn-img:hover {
-    opacity: 50%;
-  }
 
   .icon-images {
     width: 70%;
@@ -96,9 +87,6 @@
     filter: invert(100%);
   }
 
-  .dyn-img:hover {
-    opacity: 50%;
-  }
 
   .icon-images {
     width: 100%;
@@ -126,9 +114,6 @@
     filter: invert(100%);
   }
 
-  .dyn-img:hover {
-    opacity: 50%;
-  }
 
   .icon-images {
     width: 100%;
@@ -157,10 +142,6 @@
     filter: invert(100%);
   }
 
-  .dyn-img:hover {
-    opacity: 50%;
-  }
-
   .icon-images {
     width: 100%;
     height: auto;
@@ -179,4 +160,16 @@
   }
 }
 
+
+.dyn-img:hover {
+  filter: drop-shadow(0px 0px 30px rgb(185, 185, 185));
+}
+
+.dyn-img:active {
+  filter: invert(50%);
+}
+
+.dyn-img:visited {
+  filter: invert(0%);
+}
 
