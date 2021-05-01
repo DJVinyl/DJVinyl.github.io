@@ -1,52 +1,235 @@
-.App-header {
-  background-color: #4f5b66;
-  min-height: 25vh;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  background-image: url("https://www.transparenttextures.com/patterns/pinstriped-suit.png");
-  margin: 50px;
+/* smartphones, iPhone, portrait 480x320 phones */ 
+@media (min-width:320px)  { }
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+@media (max-width:640px) and (min-width:481px)  { 
 
-  background: rgba(134, 131, 131, 0.062);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
-  backdrop-filter: blur(18.5px);
-  -webkit-backdrop-filter: blur(18.5px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  line-height: 46px;
-  text-shadow: 0 2px 4px rgb(71 97 206 / 70%);
-  display: flex;
-  align-content: center;
+  
 }
 
-.link-tree {
-  display: block;
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (max-width: 960px) and (min-width:641px)  { 
+  .App-header {
+    background-color: #4f5b66;
+    min-height: 25vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/pinstriped-suit.png");
+    margin: 50px;
+  
+    background: rgba(134, 131, 131, 0.062);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+    backdrop-filter: blur(18.5px);
+    -webkit-backdrop-filter: blur(18.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    line-height: 46px;
+    text-shadow: 0 2px 4px rgb(71 97 206 / 70%);
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+  }
+  
+  .name-header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .titles {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .router-bar {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  .rounded-corners {
+    margin-top: 3vh;
+    margin-left: 8em;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    height: 12em;
+
+  }
+
 }
 
-.name-header {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (max-width: 1024px) and(min-width:961px)  {  
+  .App-header {
+    background-color: #4f5b66;
+    min-height: 25vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/pinstriped-suit.png");
+    margin: 50px;
+  
+    background: rgba(134, 131, 131, 0.062);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+    backdrop-filter: blur(18.5px);
+    -webkit-backdrop-filter: blur(18.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    line-height: 46px;
+    text-shadow: 0 2px 4px rgb(71 97 206 / 70%);
+    display: flex;
+    align-content: center;
+  }
+
+  .link-tree {
+    display: block;
+  }
+  
+  .name-header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .titles {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .router-bar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 5vw;
+  }
+
+  .rounded-corners {
+    margin-top: 3vh;
+    margin-left: 1vw;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    height: 12em;
+  }
+
 }
 
-.titles {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+/* big landscape tablets, laptops, and desktops */
+@media (max-width: 1319px) and(min-width:1025px) {  
+  .App-header {
+    background-color: #4f5b66;
+    min-height: 25vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/pinstriped-suit.png");
+    margin: 50px;
+  
+    background: rgba(134, 131, 131, 0.062);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+    backdrop-filter: blur(18.5px);
+    -webkit-backdrop-filter: blur(18.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    line-height: 46px;
+    text-shadow: 0 2px 4px rgb(71 97 206 / 70%);
+    display: flex;
+    align-content: center;
+  }
+
+  .link-tree {
+    display: block;
+  }
+  
+  .name-header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .titles {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .router-bar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 5vw;
+  }
+
+  .rounded-corners {
+    margin-top: 3vh;
+    margin-left: 1vw;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    height: 12em;
+  }
+
 }
 
-.router-bar {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin-left: 5vw;
+/* hi-res laptops and desktops */
+@media (min-width:1320px) { 
+  .App-header {
+    background-color: #4f5b66;
+    min-height: 25vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/pinstriped-suit.png");
+    margin: 50px;
+  
+    background: rgba(134, 131, 131, 0.062);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+    backdrop-filter: blur(18.5px);
+    -webkit-backdrop-filter: blur(18.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    line-height: 46px;
+    text-shadow: 0 2px 4px rgb(71 97 206 / 70%);
+    display: flex;
+    align-content: center;
+  }
+  
+  .link-tree {
+    display: block;
+  }
+  
+  .name-header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .titles {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .router-bar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 5vw;
+  }
+  
+  .rounded-corners {
+    margin-top: 3vh;
+    margin-left: 1vw;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 8px;
+    height: 13em;
+  }
+
 }
 
-.rounded-corners {
-  margin-top: 3vh;
-  margin-left: 1vw;
-  border-radius: 50%;
-  border-style: solid;
-  border-color: white;
-  border-width: 10px;
-  height: 40vh;
-}
+
+
