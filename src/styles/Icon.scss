@@ -1,5 +1,5 @@
-/* smartphones, iPhone, portrait 480x320 phones */ 
-@media (max-width:480px) and(min-width:320px)  { 
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (max-width: 480px) and(min-width:320px) {
   .dyn-img {
     margin-right: 3vw;
     margin-left: 3vw;
@@ -9,9 +9,9 @@
   .dyn-img:hover {
     opacity: 50%;
   }
-  
+
   .icon-images {
-    width:70%;
+    width: 70%;
     height: auto;
   }
 
@@ -20,17 +20,16 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  
-  .subtitle{
+
+  .subtitle {
     margin-top: -2.5vh;
-    margin-left: -2.0em;
-    font-size:10px;
+    margin-left: -2em;
+    font-size: 10px;
     color: white;
   }
-
 }
-/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
-@media (max-width:640px) and (min-width:481px)  { 
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media (max-width: 640px) and (min-width: 481px) {
   .dyn-img {
     margin-right: 3vw;
     margin-left: 3vw;
@@ -40,9 +39,9 @@
   .dyn-img:hover {
     opacity: 50%;
   }
-  
+
   .icon-images {
-    width:70%;
+    width: 70%;
     height: auto;
   }
 
@@ -51,18 +50,17 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  
-  .subtitle{
+
+  .subtitle {
     margin-top: -2.5vh;
     margin-left: -2.9em;
-    font-size:12px;
+    font-size: 12px;
     color: white;
   }
-
 }
 
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-@media (max-width:960px) and (min-width:641px)  {
+@media (max-width: 960px) and (min-width: 641px) {
   .dyn-img {
     margin-right: 3vw;
     margin-left: 3vw;
@@ -72,9 +70,9 @@
   .dyn-img:hover {
     opacity: 50%;
   }
-  
+
   .icon-images {
-    width:70%;
+    width: 70%;
     height: auto;
   }
 
@@ -85,18 +83,17 @@
     align-content: center;
     align-items: center;
   }
-  
-  .subtitle{
+
+  .subtitle {
     margin-top: -2.5vh;
     margin-left: -2.9em;
-    font-size:12px;
+    font-size: 12px;
     color: white;
   }
-
 }
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
-@media (max-width:1024px) and (min-width:961px)  { 
+@media (max-width: 1024px) and (min-width: 961px) {
   .dyn-img {
     margin-right: 3vw;
     margin-left: 3vw;
@@ -106,9 +103,9 @@
   .dyn-img:hover {
     opacity: 50%;
   }
-  
+
   .icon-images {
-    width:70%;
+    width: 70%;
     height: auto;
   }
 
@@ -117,17 +114,17 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  
-  .subtitle{
+
+  .subtitle {
     margin-top: -2.5vh;
     margin-left: -2.3em;
-    font-size:12px;
+    font-size: 12px;
     color: white;
   }
- }
+}
 
 /* big landscape tablets, laptops, and desktops */
-@media (max-width:1319px) and (min-width:1025px) { 
+@media (max-width: 1319px) and (min-width: 1025px) {
   .dyn-img {
     margin-right: 3vw;
     margin-left: 3vw;
@@ -137,9 +134,9 @@
   .dyn-img:hover {
     opacity: 50%;
   }
-  
+
   .icon-images {
-    width:70%;
+    width: 70%;
     height: auto;
   }
 
@@ -148,18 +145,17 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  
-  .subtitle{
+
+  .subtitle {
     margin-top: -2.5vh;
     margin-left: -2.3em;
-    font-size:12px;
+    font-size: 12px;
     color: white;
   }
-
- }
+}
 
 /* hi-res laptops and desktops */
-@media (min-width:1320px) { 
+@media (min-width: 1320px) {
   .dyn-img {
     margin-right: 3vw;
     margin-left: 3vw;
@@ -171,22 +167,19 @@
   }
 
   .icon-images {
-    width:100%;
+    width: 100%;
     height: auto;
   }
 
-  
   .icon-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-  
-  .subtitle{
+
+  .subtitle {
     margin-top: -2.5vh;
-    font-size:12px;
+    font-size: 12px;
     color: white;
   }
-
- }
-
+}
