@@ -1,6 +1,6 @@
 {
-  "short_name": "My Landing Page",
-  "name": "Landing Page - That redirects to relevant links",
+  "short_name": "My Development Portfolio",
+  "name": "My Development Portfolio to display what I have done as a Full Stack Developer",
   "icons": [
     {
       "src": "favicon.ico",
