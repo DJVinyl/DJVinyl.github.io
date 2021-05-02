@@ -1,0 +1,21 @@
+@media (max-width: 480px) and (min-width:320px)
+{
+  .footer-text {
+    color:white;
+    font-style:italic;
+    font-size: 12px;
+  }
+}
+
+.footer-text {
+  color: white;
+  font-style: italic;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url("https://www.transparenttextures.com/patterns/pinstriped-suit.png");
+  background-color: #2a3138;
+}

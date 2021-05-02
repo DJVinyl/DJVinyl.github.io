@@ -1,8 +1,9 @@
-import Header from './Header'
-import About from './About'
-import Portfolio from './Portfolio'
-import FadeIn from 'react-fade-in';
-import '../styles/App.scss'
+import Header from "./Header";
+import About from "./About";
+import Portfolio from "./Portfolio";
+import Footer from "./Footer";
+import FadeIn from "react-fade-in";
+import "../styles/App.scss";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <FadeIn delay={600}>
           <About />
           <Portfolio />
+          <Footer/>
         </FadeIn>
       </div>
     </div>
